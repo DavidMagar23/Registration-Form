@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lavender;
+}
+
+#title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+button,
+fieldset {
+    margin: 20px auto;
+}
+
+fieldset {
+    padding: 10px;
+    padding-top: 20px;
+    width: 500px;
+    border: none;
+    border-top: 3px solid black;
+}
+
+button {
+    min-width: 100px;
+    width: 200px;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+input,
+select {
+    padding: 1px 2px;
+    width: 100%;;
+    margin: 10px 0  15px 0;
+}
+
+label {
+    display: block;
+}
+
+#fieldset-one {
+    margin-bottom: 0;
+}
+
+#fieldset-two {
+    margin-top: 0;
+}
+
+.radio-label > input,
+.checkbox-label > input {
+    display: inline;
+    margin: 6px 0 10px 0;
+    width: unset;
+    vertical-align: middle;
+}
+
+#section-one {
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding: 2px 4px;
+}
+
+#fieldset-three {
+    text-align: center;
+}

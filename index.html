@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <h1 id="title">Registration Form</h1>
+            <p id="description">Please fill out the form to register your account</p>
+            <form id="survey-form" action="">
+                <fieldset id="fieldset-one">
+                    <label id="name-label" for="name"> Enter Your Name: <input placeholder="David" type="text" id="name" required> </label>
+                    <label id="email-label" for="email"> Enter Your Email: <input placeholder="davidmagar23@gmail.com" type="email" id="email" required> </label>
+                    <label id="password-label" for="password"> Enter Your Password: <input placeholder="david2049" type="password" id="password" required> </label>
+                    <label id="number-label" for="number"> Enter Your Age: <input placeholder="18" type="number" min="13" max="99" id="number"> </label>
+                    <label id="select-label">
+                        Choose Your Gender: 
+                        <select id="dropdown" required>
+                            <option value="" disabled selected></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Others</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset id="fieldset-two">
+                    <section id="section-one">
+                        <div>Choose Your Account-type: </div>
+                        <label class="radio-label"><input type="radio" name="user-type" value="personal"> Personal</label>
+                        <label class="radio-label"><input type="radio" name="user-type" value="company"> Company</label>
+                    </section>
+                    <section id="section-two">
+                        <div>Choose Your Interested-fields:</div>
+                        <label class="checkbox-label"><input type="checkbox" value="science"> Science</label>
+                        <label class="checkbox-label"><input type="checkbox" value="technology"> Technoogy</label>
+                        <label class="checkbox-label"><input type="checkbox" value="business"> Business</label>
+                        <label class="checkbox-label"><input type="checkbox" value="entertainment"> Entertainment</label>
+                    </section>     
+                </fieldset>
+                <fieldset id="fieldset-three">
+                    <label for="bio" name="bio">
+                        About me
+                        <textarea id="bio" placeholder="I would like to make friends..." rows="4" cols="60"></textarea>
+                    </label>
+                </fieldset>
+                <button id="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
